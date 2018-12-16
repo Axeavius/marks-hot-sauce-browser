@@ -21,8 +21,8 @@
   position: absolute;
   top: 4px;
   right: 4px;
-  width: 24px;
-  height: 24px;
+  width: 32px;
+  height: 32px;
   background-color: transparent;
   outline: none;
   border: none;
@@ -92,13 +92,27 @@
     width: 44%;
     margin: 12px 3%;
   }
-  
-  .hot-sauce-grid .card img {
-    width: 100%;
-    margin: 0;
-  }
 
   .hot-sauce-grid .card .info-section .name {
     font-size: 24px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hot-sauce-grid .card img {
+    height: 192px;
+  }
+
+  .hot-sauce-grid .card .info-section {
+    height: 88px;
+    padding: 8px 5%;
+  }
+
+  .hot-sauce-grid .card .info-section .name {
+    font-size: 20px;
+  }
+
+  .hot-sauce-grid .card .info-section .desc {
+    font-size: 12px;
   }
 }

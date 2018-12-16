@@ -158,3 +158,18 @@
     font-size: 14px;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .hot-sauce-detail .left .header {
+    min-height: 72px;
+  }
+
+  .hot-sauce-detail .left .header h3 button {
+    font-size: 16px;
+  }
+
+  .hot-sauce-detail .left .header h1 {
+    font-size: 40px;
+    margin: 0;
+  }
+}
