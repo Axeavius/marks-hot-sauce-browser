@@ -1,0 +1,104 @@
+.hot-sauce-grid .card {
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin: 12px;
+  transition: all .4s;
+  cursor: default;
+  -webkit-box-shadow: 4px 4px 16px 1px rgba(0,0,0,.5);
+  -moz-box-shadow: 4px 4px 16px 1px rgba(0,0,0,.5);
+  box-shadow: 4px 4px 16px 1px rgba(0,0,0,.5);
+}
+
+.hot-sauce-grid .card:hover {
+  transform: scale(1.05);
+  -webkit-box-shadow: 6px 6px 16px 1px rgba(0,0,0,.5);
+  -moz-box-shadow: 6px 6px 16px 1px rgba(0,0,0,.5);
+  box-shadow: 6px 6px 16px 1px rgba(0,0,0,.5);
+}
+
+.hot-sauce-grid .card .delete-btn {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  padding: 0;
+  font-size: 32px;
+  transform: rotate(45deg);
+  transition: all .4s;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.hot-sauce-grid .card:hover .delete-btn {
+  opacity: 0.5;
+}
+
+.hot-sauce-grid .card img {
+  display: block;
+  width: 256px;
+  height: 256px;
+  background-color: #FFF;
+  border: 1px solid #808080;
+  margin: -2px -2px 0px -2px;
+  object-fit: scale-down;
+}
+
+.hot-sauce-grid .card .info-section {
+  width: 220px;
+  height: 96px;
+  background-color: #F2F2F2;
+  border: 1px solid #F2F2F2;
+  padding: 16px 16px 8px 16px;
+}
+
+.hot-sauce-grid .card .info-section .name {
+  display: block;
+  font-size: 32px;
+  font-weight: 100;
+}
+
+.hot-sauce-grid .card .info-section .desc {
+  display: block;
+  font-size: 14px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+  .hot-sauce-grid .card {
+    width: 29%;
+    margin: 12px 2%;
+  }
+  
+  .hot-sauce-grid .card img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .hot-sauce-grid .card .info-section {
+    width: 90%;
+    border: 1px solid #808080;
+    margin-top: -1px;
+    padding: 16px 5%;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .hot-sauce-grid .card {
+    width: 44%;
+    margin: 12px 3%;
+  }
+  
+  .hot-sauce-grid .card img {
+    width: 100%;
+    margin: 0;
+  }
+
+  .hot-sauce-grid .card .info-section .name {
+    font-size: 24px;
+  }
+}

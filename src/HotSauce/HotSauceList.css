@@ -1,0 +1,26 @@
+.hot-sauce-grid {
+  max-width: 1120px;
+  margin: 0px auto;
+}
+
+.hot-sauce-grid h2 {
+  color: white;
+  margin: 0px;
+  padding: 12px;
+  font-size: 48px;
+  font-weight: 100;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hot-sauce-grid h2 {
+    margin-left: 2%;
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 840px) {
+  .hot-sauce-grid h2 {
+    margin-left: 3%;
+    font-size: 32px;
+  }
+}

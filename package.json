@@ -1,5 +1,6 @@
 {
   "name": "marks-hot-sauce-browser",
+  "homepage": "https://axeavius.github.io/marks-hot-sauce-browser",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
