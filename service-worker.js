@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/marks-hot-sauce-browser/precache-manifest.ff4b414353cdf258ace80d6267ecbda2.js"
+  "/marks-hot-sauce-browser/precache-manifest.060fde4ea77e4393786466eaec6d0fec.js"
 );
 
 workbox.clientsClaim();
