@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import HotSauceData from '../hotsauces.json';
 import './HotSauceList.css';
-
 import './HotSauceDetail.css';
 
 import HotSauceCard from './HotSauceCard';
@@ -36,7 +35,7 @@ class HotSauceList extends Component {
     });
   }
 
-  backToHotSauceList(event) {
+  backToHotSauceList() {
     this.setState({
       showHotSauceDetail: false
     });

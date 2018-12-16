@@ -34,7 +34,7 @@ class HotSauceCard extends Component {
     return (
       <div className="card" onClick={this.onCardClicked}>
         <img src={hotSauce.imageURL} alt={hotSauce.title} />
-        <button className="delete-btn" onClick={(i) => this.onDeleteItem(i)}>+</button>
+        <button className="delete-btn" onClick={(e) => this.onDeleteItem(e)}>+</button>
         <div className="info-section">
           <span className="name">{hotSauce.title}</span>
           <span className="desc">{hotSauce.subtitle}</span>
